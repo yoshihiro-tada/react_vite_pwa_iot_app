@@ -9,7 +9,7 @@ function App() {
           SP-header
         </div>
       </header>
-      <main className="p-2 bg-gray-100">
+      <main className="p-2 bg-gray-100 h-full">
         <div className="flex justify-between mb-2">
           <div>ようこそゲストさん</div>
           <div>アイコン</div>
