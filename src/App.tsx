@@ -5,7 +5,7 @@ import Footer from "./templates/Footer"
 // pages
 // import Top from "./pages/Top"
 
-import { BrowserRouter as Router, Routes, Route, Outlet } from "react-router-dom";
+import { BrowserRouter as Outlet } from "react-router-dom";
 
 function App() {
   return (

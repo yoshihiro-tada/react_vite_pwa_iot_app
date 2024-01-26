@@ -8,7 +8,7 @@ import "./index.css";
 import Top from "./pages/Top.tsx"
 import Details from "./pages/Details.tsx"
 
-import { BrowserRouter as Router, Routes, Route, Outlet } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
