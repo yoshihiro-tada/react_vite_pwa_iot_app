@@ -1,9 +1,19 @@
-import "./App.css";
-
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold">TEST</h1>
+      <header>
+        <div className="bg-gray-600">
+          PC-header
+        </div>
+        <div>
+          SP-header
+        </div>
+      </header>
+      <main>
+        <div>ようこそゲストさん</div>
+        <h2>担当機器</h2>
+      </main>
+      <footer className="bg-blue-600">footer</footer>
     </>
   );
 }
