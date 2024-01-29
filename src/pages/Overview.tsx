@@ -9,7 +9,6 @@ function Overview() {
           <li><Link to={`/`} className="block text-red-600 w-fit m-2">■</Link></li>
         </ul>
       </div>
-      <Link to={`/`} className="block text-blue-600 w-fit text-sm mt-2">TOPへ</Link>
     </>
   );
 }

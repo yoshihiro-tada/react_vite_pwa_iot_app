@@ -15,7 +15,6 @@ function Mypage() {
         <Link to={`/details`} className="text-white bg-blue-600 px-2 py-1 rounded-lg shadow-md block my-2 w-fit">担当機器一覧へ</Link>
         <button className="text-white bg-blue-600 px-2 py-1 rounded-lg shadow-md block my-2">ログアウトする</button>
       </div>
-      <Link to={`/`} className="block text-blue-600 w-fit text-sm">TOPへ</Link>
     </>
   );
 }

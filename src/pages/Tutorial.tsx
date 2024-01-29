@@ -25,7 +25,6 @@ function Tutorial() {
         <p>機械場マップから機器の一覧が確認できます。</p>
         <Link to={`/overview`} className="block text-blue-600 w-fit text-sm">機械場マップへ</Link>
       </div>
-      <Link to={`/`} className="block text-blue-600 w-fit text-sm">TOPへ</Link>
     </>
   );
 }
