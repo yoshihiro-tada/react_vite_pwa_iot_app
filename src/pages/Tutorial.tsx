@@ -13,6 +13,11 @@ function Tutorial() {
             <input className="mr-2 border-gray-400 border-2 border-solid rounded-lg" type="text" placeholder="氏名"></input>
             <button className="text-white bg-blue-600 px-2 py-1 rounded-lg shadow-md">確定する</button>
           </div>
+          <div className="text-red-600 mt-2 text-sm">
+            「●●●●」で登録しました。<br />
+            ※確定するボタンを押したら一時的にポップアップ表示<br />
+            ※その後、ボタンは不活性化
+          </div>
         </div>
       </div>
       <div className="mb-6">
