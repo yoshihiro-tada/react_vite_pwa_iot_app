@@ -8,12 +8,24 @@ function Top() {
         <div>アイコン</div>
       </div>
       <h2 className="font-bold text-lg">担当機器</h2>
-      <div className="bg-white rounded-lg p-2 shadow-md border-solid border-gray-400 margin-top: 0.5rem;
-margin-bottom: 0.5rem;">
-        <div className="text-sm">機器番号：</div>
-        <div className="text-sm">稼働状況：</div>
-      </div>
-      <Link to={`/details`}>詳細へ</Link>
+      <ul className="flex">
+        <li className="my-2 w-full max-w-xs mr-4">
+          <Link to={`/details`}>
+            <div className="bg-white rounded-lg p-2 shadow-md border-solid border-gray-200 border-1 box-border">
+              <div className="text-sm">機器番号：</div>
+              <div className="text-sm">稼働状況：</div>
+            </div>
+          </Link>
+        </li>
+        <li className="my-2 w-full max-w-xs mr-4">
+          <Link to={`/details`}>
+            <div className="bg-white rounded-lg p-2 shadow-md border-solid border-gray-200 border-1 box-border">
+              <div className="text-sm">機器番号：</div>
+              <div className="text-sm">稼働状況：</div>
+            </div>
+          </Link>
+        </li>
+      </ul>
     </>
   );
 }
