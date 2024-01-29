@@ -1,10 +1,7 @@
 // templates
 import Header from "./templates/Header"
 import Footer from "./templates/Footer"
-
-// pages
-// import Top from "./pages/Top"
-
+// pagesの内容がOutletのコンポーネントに子コンポーネントとして表示される
 import { Outlet } from "react-router-dom";
 
 function App() {
