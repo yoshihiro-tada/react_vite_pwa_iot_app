@@ -10,6 +10,7 @@ import Details from "./pages/Details.tsx"
 import DetailsId from "./pages/DetailsId.tsx"
 import Mypage from "./pages/Mypage.tsx"
 import Tutorial from "./pages/Tutorial.tsx"
+import Overview from "./pages/Overview.tsx"
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/details/id" element={<DetailsId />} />
           <Route path="/mypage" element={<Mypage />} />
           <Route path="/tutorial" element={<Tutorial />} />
+          <Route path="/overview" element={<Overview />} />
         </Route>
       </Routes>
     </Router>
