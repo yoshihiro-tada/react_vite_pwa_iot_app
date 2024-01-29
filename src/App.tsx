@@ -11,7 +11,11 @@ function App() {
   return (
     <>
       <Header />
-      <Outlet />
+      <main className="bg-gray-200 h-full">
+        <div className="p-2 max-w-5xl my-o mx-auto w-full">
+          <Outlet />
+        </div>
+      </main>
       <Footer />
     </>
   );
