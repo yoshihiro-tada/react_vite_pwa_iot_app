@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 function DetailsId() {
   return (
     <>
-      <div className="flex justify-between mb-2">
-        担当機器詳細
-      </div>
+      <h2 className="w-fit">担当機器()詳細<span className="block">detail</span></h2>
       <Link to={`/`} className="block text-blue-600 w-fit text-sm">TOPへ</Link>
     </>
   );
