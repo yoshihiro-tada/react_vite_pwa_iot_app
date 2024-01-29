@@ -6,7 +6,7 @@ function Mypage() {
       <div className="flex justify-between mb-2">
         マイページ
       </div>
-      <Link to={`/`} className="block text-blue-600 underline">TOPへ</Link>
+      <Link to={`/`} className="block text-blue-600 w-fit text-sm">TOPへ</Link>
     </>
   );
 }
