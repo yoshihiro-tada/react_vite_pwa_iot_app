@@ -7,6 +7,8 @@ import "./index.css";
 // pages
 import Top from "./pages/Top.tsx"
 import Details from "./pages/Details.tsx"
+import DetailsId from "./pages/DetailsId.tsx"
+import Mypage from "./pages/Mypage.tsx"
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -17,6 +19,8 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Route path="/" element={<App />}>
           <Route path="/" element={<Top />} />
           <Route path="/details" element={<Details />} />
+          <Route path="/details/id" element={<DetailsId />} />
+          <Route path="/mypage" element={<Mypage />} />
         </Route>
       </Routes>
     </Router>
